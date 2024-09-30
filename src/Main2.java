@@ -23,7 +23,7 @@ public class Main2 {
     ContoOnline contoOn=new ContoOnline("Tatiana McRae",30000,2000);
         contoOn.stampaSaldo();
         try{
-            contoOn.preleva(1900);
+            contoOn.preleva(1700);
             contoOn.stampaSaldo();
         }catch(BancaException e){
             System.out.println("Impossibile procedere con il prelievo");
